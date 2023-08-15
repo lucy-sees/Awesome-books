@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./CSS/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Awesome Books</title>
+</head>
+
+<body>
+
+  <header id="headline-section">
+    <nav class="navbar sticky-top container-fluid">
+      <div class="container">
+        <div class="logo-section navbar-brand">
+          <a href="#headline-section" class="logo">AwesomeBooks</a>
+          <!-- <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+        </div>
+    
+        <div class="menu-section" id="navbarNav">
+          <ul class="menu d-flex align-self-end">
+            <li class="menu-item nav-item" id="list"><a href="#" class="nav-link  d-lg-block">List</a></li>
+            <li class="menu-item nav-item" id="add-new"><a href="#" class="nav-link d-lg-block">Add New</a></li>
+            <li class="menu-item nav-item" id="contact"><a href="#" class="nav-link  d-lg-block">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <div id="currentDate">
+      <!-- 15/10/2020 -->
+    </div>
+  </header>
+
+  <div id="main-section" class="container d-flex flex-column mx-auto justify-content-center align-items-center">
+    <section id="book-list">
+      <div class="book-list-wrapper">
+        <div class="book-list-container">
+          <div class="book-list-title-container">
+            <h1 class="book-list-title text-center d-flex flex-column">
+              My Awesome Books
+            </h1>
+          </div>
+          <ul id="list-container" class="container-fluid">
+
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="add-new-section">
+      <div class="add-book-container">
+        <form action="" id="book-form">
+          <h2 class="form-title">Add New Book</h2>
+          <div class="input-container">
+            <input type="text" id="title" name="title" placeholder="Title" required>
+          </div>
+          <div class="input-container">
+            <input type="text" id="author" name="author" placeholder="Author" required>
+          </div>
+          <div class="input-container">
+            <button type="submit" id="add-btn">Add</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <div class="content-container container-fluid d-flex flex-column text-center">
+        <h2 class="text-center">Contact Information</h2>
+      </div>
+      <div class="container">
+        <ul id="info-container" class="d-flex flex-column align-self-center list-unstyled">
+          <li class="infolist">lucysees254@gmail.com</li>
+          <li class="infolist">+254778093765</li>
+          <li class="infolist">@ Nairobi, Kenya</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <footer id="footer-section container-fluid h-100">
+    <div class="footer-bar">
+      <div class="footer-content">
+        Copyright: ...
+      </div>
+    </div>
+  </footer>
+
+  <!--JavaScript-->
+  <script src="./JavaScript/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!--JavaScript-->
+</body>
+
+</html>
